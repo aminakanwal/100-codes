@@ -1,0 +1,19 @@
+//ABCDE
+//ABCD
+//ABC
+//AB 
+//A
+#include<iostream>
+using namespace std;
+int main(){
+
+    for(int i=4;i>=0;i--)
+    {
+    for(int j=0;j<=i;j++)
+    {
+    cout<<(char)(i+65);
+	}
+	cout<<endl;
+}
+    return 0;
+}
